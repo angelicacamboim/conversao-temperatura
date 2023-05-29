@@ -39,6 +39,6 @@ jobs:
               file: src/Dockerfile
               push: true
               tags: |
-                angelicabayer/aula-conversao-temperatura:v1
+                angelicabayer/aula-conversao-temperatura:${{github.run_number}}
                 angelicabayer/aula-conversao-temperatura:latest
  
