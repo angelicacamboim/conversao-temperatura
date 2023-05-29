@@ -23,3 +23,10 @@ docker container ls
 docker login
 docker push angelicabayer/aula-conversao-temperatura:v1
 docker tag angelicabayer/aula-ubuntu-curl:v1 angelicabayer/aula-ubuntu-curl:latest
+
+# Pipeline
+[ ] Jenkins
+[x] Git hub actions (https://github.com/angelicacamboim/conversao-temperatura/actions/new)
+
+# Sites
+https://codenotary.com/blog/extremely-useful-docker-commands
