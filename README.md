@@ -26,6 +26,7 @@ docker tag angelicabayer/aula-ubuntu-curl:v1 angelicabayer/aula-ubuntu-curl:late
 
 # Pipeline
 [ ] Jenkins
+[ ] GiLlab
 [x] Git hub actions (https://github.com/angelicacamboim/conversao-temperatura/actions/new)
 
 # Sites
