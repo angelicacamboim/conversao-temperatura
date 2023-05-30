@@ -7,27 +7,27 @@ O projeto conversão de temperatura é um projeto desenvolvido em NodeJS. O proj
 A aplicação é exposta usando a porta 8080
 
 # Docker - C:\conversao-temperatura\ubuntu-curl>
-docker build -t angelicabayer/aula-ubuntu-curl:v1 -f Dockerfile .
-docker image ls
-docker container run -it aula-ubuntu-curl
-docker image prune (unused image)
+docker build -t angelicabayer/aula-ubuntu-curl:v1 -f Dockerfile . <br />
+docker image ls <br />
+docker container run -it aula-ubuntu-curl <br />
+docker image prune (unused image) <br />
 
 # Docker C:\conversao-temperatura\src>
-docker build -t angelicabayer/aula-conversao-temperatura:v1 .
-docker image ls
-docker image prune (unused image)
-docker container run -d -p 8080:8080 angelicabayer/aula-conversao-temperatura:v1
-docker container ls
+docker build -t angelicabayer/aula-conversao-temperatura:v1 . <br />
+docker image ls <br />
+docker image prune (unused image) <br />
+docker container run -d -p 8080:8080 angelicabayer/aula-conversao-temperatura:v1 <br />
+docker container ls <br />
  
 # Subir a imagem para hub docker
-docker login
-docker push angelicabayer/aula-conversao-temperatura:v1
-docker tag angelicabayer/aula-ubuntu-curl:v1 angelicabayer/aula-ubuntu-curl:latest
+docker login <br />
+docker push angelicabayer/aula-conversao-temperatura:v1 <br />
+docker tag angelicabayer/aula-ubuntu-curl:v1 angelicabayer/aula-ubuntu-curl:latest <br />
 
 # Pipeline
-[ ] Jenkins
-[ ] GiLlab
-[x] Git hub actions (https://github.com/angelicacamboim/conversao-temperatura/actions/new)
+[ ] Jenkins <br />
+[ ] GiLlab <br />
+[x] Git hub actions (https://github.com/angelicacamboim/conversao-temperatura/actions/new) <br />
 
 # Sites
-https://codenotary.com/blog/extremely-useful-docker-commands
+https://codenotary.com/blog/extremely-useful-docker-commands <br />
